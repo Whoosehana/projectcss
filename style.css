@@ -84,6 +84,7 @@ ul.navbar>svg {
     height: 1%;
     padding: 0px 20px;
 }
+
 .menu {
     display: none;
 }
@@ -94,7 +95,7 @@ ul.navbar>svg {
         background: #d7f2d3;
         background: radial-gradient(circle, rgba(215, 242, 211, 1) 0%, rgba(242, 215, 201, 1) 50%, rgba(211, 216, 237, 1) 100%);
     }
-    
+
     .navbar {
         display: flex;
         justify-content: center;
@@ -102,7 +103,7 @@ ul.navbar>svg {
         padding: 0px 5px;
         text-align: center;
     }
-    
+
     ul.navbar>li>a {
         height: 50px;
         text-decoration: none;
@@ -111,21 +112,22 @@ ul.navbar>svg {
         padding: 10px;
         display: flex;
     }
-    
+
     ul.navbar>img {
         width: 1%;
         height: 1%;
         padding: 0px 10px;
     }
-    
+
     ul.navbar>svg {
         width: 1%;
         height: 1%;
         padding: 0px 10px;
     }
+
     .menu {
         display: flex;
-    } 
+    }
 }
 
 .apple-support {
@@ -264,3 +266,72 @@ body {
         width: 95%;
     }
 }
+
+    .support-section1 {
+        padding: 40px 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .containers {
+        width: 950px;
+        background-color: white;
+        border-radius: 16px;
+        text-align: center;
+        padding: 40px 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .title {
+        font-size: 24px;
+        font-weight: 600;
+        color: #1d1d1f;
+        margin-bottom: 12px;
+        font-family: "IRANSansExtrablack";
+    }
+
+    .description {
+        font-size: 16px;
+        color: #4a4a4a;
+        margin-bottom: 16px;
+        font-family: "IRANSansMeduim";
+    }
+
+    .link {
+        color: #0071e3;
+        font-size: 16px;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 24px;
+        font-family: "IRANSansMeduim";
+    }
+
+    .link::after {
+        content: " ↗";
+    }
+
+    .image-wrapper img {
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+        border-radius: 10px;
+    }
+
+    @media (max-width: 640px) {
+        .title {
+            font-size: 20px;
+        }
+
+        .description,
+        .link {
+            font-size: 14px;
+        }
+
+        .container {
+            padding: 30px 15px;
+        }
+
+        .image-wrapper img {
+            max-width: 100%;
+        }
+    }
