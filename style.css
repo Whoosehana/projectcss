@@ -70,6 +70,7 @@ ul.navbar>li>a {
     color: black;
     font-family: "IRANSansMeduim";
     padding: 20px;
+
 }
 
 ul.navbar>img {
@@ -114,12 +115,14 @@ section.container>div {
     align-items: center;
     justify-self: center;
     justify-items: center;
-
+    justify-content: space-between;
 }
 
 section.container>div>P {
     justify-self: center;
     justify-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 body {
