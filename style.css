@@ -84,8 +84,49 @@ ul.navbar>svg {
     height: 1%;
     padding: 0px 20px;
 }
+.menu {
+    display: none;
+}
 
-/*@media (max-width: 640px)*/
+@media only screen and (max-width: 640px) {
+    .header-style {
+        width: 100%;
+        background: #d7f2d3;
+        background: radial-gradient(circle, rgba(215, 242, 211, 1) 0%, rgba(242, 215, 201, 1) 50%, rgba(211, 216, 237, 1) 100%);
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0px 5px;
+        text-align: center;
+    }
+    
+    ul.navbar>li>a {
+        height: 50px;
+        text-decoration: none;
+        color: black;
+        font-family: "IRANSansMeduim";
+        padding: 10px;
+        display: flex;
+    }
+    
+    ul.navbar>img {
+        width: 1%;
+        height: 1%;
+        padding: 0px 10px;
+    }
+    
+    ul.navbar>svg {
+        width: 1%;
+        height: 1%;
+        padding: 0px 10px;
+    }
+    .menu {
+        display: flex;
+    } 
+}
 
 .apple-support {
     font-family: "IRANSansExtrabold";
